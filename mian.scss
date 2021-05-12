@@ -1,0 +1,27 @@
+@import "/sub.scss";
+
+
+.container{
+  width: 200px;
+  height:200px; 
+  margin:20px;
+  border-radius: 10px;
+  background-color: $color;
+  &:hover{
+    background-color: darken($color,20px); ///색상의 20% 만큼 어둡게 만듬// 
+  }
+  &.item{
+    background-color: mix($color,red);  // 두가지 색상을 섞는다. 오 신기 // 
+    background-color: lighten($color,10%);  // 색상 10% 만큼 밝게 만듬 
+    background-color: saturate($color,40%);  // 체도 변경 올림// 
+    &:hover{
+      background-color: desaturate($color,40%);  // 체도 변경 낮춤 // 
+      background-color: invert($color); // 색상 반전 // 
+      background-color: rgba($color , .5); // 투명도 조절// 
+
+
+    }
+  }
+}
+
+

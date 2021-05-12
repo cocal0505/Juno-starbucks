@@ -28,4 +28,4 @@ const thisYear =document.querySelector('.this-year');
 
 thisYear.textContent = new Date().getFullYear();
 
-// footer-end///
+// footer-end///type centimeter =  number;

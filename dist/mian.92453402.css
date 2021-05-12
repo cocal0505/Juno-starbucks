@@ -1,0 +1,22 @@
+.container {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: royalblue;
+}
+.container:hover {
+  background-color: #1a3ca2;
+}
+.container.item {
+  background-color: #a03571;
+  background-color: #6d8ce8;
+  background-color: #235aff;
+}
+.container.item:hover {
+  background-color: #6d7fb5;
+  background-color: #be961e;
+  background-color: rgba(65, 105, 225, 0.5);
+}
+
+/*# sourceMappingURL=/mian.92453402.css.map */
